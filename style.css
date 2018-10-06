@@ -316,8 +316,8 @@ button[type="submit"]:hover {
 
 /* Smartphones portrait and landscape */
 
-@media only screen and (min-device-width: 320px) and
- (max-device-width: 480px){
+@media only screen and (min-width: 320px) and
+ (max-width: 767px){
 
   .content {
     padding-bottom: 1rem;
@@ -487,8 +487,8 @@ button[type="submit"]:hover {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width:768px)
-and (max-device-width:1024px) {
+@media only screen and (min-width:768px)
+and (max-width:1194px) {
 #logo {
   margin: 1.3rem;
   }
@@ -563,6 +563,14 @@ and (max-device-width:1024px) {
 
 #headshot {
   right:1.5rem;
+  }
+
+  .checkboxLabel{
+    font-size: 60%;
+    width: 90%;
+    display: inline-block;
+    flex-shrink: 1;
+    word-break: break-all;
   }
 
   input[type="checkbox"]{
