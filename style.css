@@ -224,8 +224,7 @@ input[type="checkbox"]{
 
 .checkboxLabel{
   display: inline-block;
-  width: 60%;
-  word-break: break-all;
+  width: 67%;
 }
 #contactSocial {
    text-decoration: underline;
@@ -567,15 +566,14 @@ and (max-width:1194px) {
 
   .checkboxLabel{
     font-size: 60%;
-    width: 90%;
+    width: 67%;
     display: inline-block;
     flex-shrink: 1;
-    word-break: break-all;
   }
 
   input[type="checkbox"]{
      display: inline-block;
      width: 12px;
-     vertical-align: top;
+     vertical-align: middle;
    }
 }
