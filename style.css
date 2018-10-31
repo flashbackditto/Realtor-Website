@@ -199,7 +199,7 @@ hr {
   }
 
 .contact {
-   margin: 5rem auto 2rem auto;
+   margin: 5rem auto 4rem auto;
    width: 70%;
    background-color: rgba(0, 0, 255, 0.7);
    border-radius: 1rem;
@@ -444,6 +444,11 @@ button[type="submit"]:hover {
 
   }
 
+  .hours {
+    width: 70vw;
+    margin: auto; 
+  }
+
   .comments {
     display: flex;
     justify-content: center;
@@ -488,6 +493,11 @@ button[type="submit"]:hover {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width:768px)
 and (max-width:1194px) {
+
+body {
+  overflow: hidden;
+}
+
 #logo {
   margin: 1.3rem;
   }
