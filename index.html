@@ -174,26 +174,17 @@
   <h2 id="contactSocial">Contact</h2>
 
     <div class="comments">
-    <form>
-      <input placeholder="Name" type="text" name="name" />
-    </form>
-    <form>
-      <input placeholder="Email" type="text" name="email" />
-    </form>
-    <form>
-      <input placeholder="Phone Number" type="text" name="phone" />
-    </form>
-    <form action="">
+    <form class ="contact-form" action="contactform.php" method="post">
+      <input type="text" placeholder="Name"  name="name">
+      <input type="text" placeholder="Email"  name="email">
+      <input type="text" placeholder="Phone Number" name="phone">
+      <input type="text" placeholder="Subject" name="subject">
       <textarea placeholder="Questions & Comments" name="comments"></textarea>
-    </form>
-    <form>
-      <input type="checkbox" name="subscribe" value="subscribe" />
+      <input type="checkbox" name="subscribe" value="subscribe">
         <span class="checkboxLabel">
         Subscribe to our EXCLUSIVE list of properties &amp realty information.
         </span>
-    </form>
-    <form>
-   <button name="submit" type="submit" id="contact-submit"
+   <button type="submit" name="submit"  id="contact-submit"
    data-submit="...Sending">Submit</button>
  </form>
 </div>
