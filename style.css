@@ -124,6 +124,7 @@ p {
 
 #flagFlower{
    margin: 1rem 0;
+   margin-left: 1rem;
    box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
    border: 1px solid white;
    display: flex;
@@ -239,13 +240,23 @@ input, textarea{
    border-radius: 5px;
    padding: .5rem;
    font-size: 18px;
-   margin: auto;
+   margin: .5rem auto;
   }
 
 textarea {
    height: 10rem;
    font-family: 'Arial', serif;
   }
+
+#vrgLogo {
+    margin-top: 3rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+#realtorLogo{
+   box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
+}
 
 footer {
    margin: 0 auto 12px auto;
@@ -446,7 +457,11 @@ button[type="submit"]:hover {
 
   .hours {
     width: 70vw;
-    margin: auto; 
+    margin: auto;
+  }
+
+  .hours h2 {
+    text-decoration: underline;
   }
 
   .comments {
