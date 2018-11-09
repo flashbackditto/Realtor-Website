@@ -345,17 +345,17 @@ button[type="submit"]:hover {
       top: 2rem;
    	}
 
-   	nav ul, nav:active ul {
+   	 nav ul, nav:active ul {
    		display: none;
    		position: absolute;
-   		padding: 5px 10px;
+   		padding: 10px 10px;
    		background: rgba(0,0,0,1);
    		border: 5px solid #444;
    	  right: 11%;
    		top: 5rem;
    		width: 70vw;
       height: 70vh;
-      max-height: 500px;
+      max-height: 407px;
    		border-radius: 4px 0 4px 4px;
    	}
 
@@ -414,6 +414,10 @@ button[type="submit"]:hover {
    text-align: center;
    padding: none;
   }
+
+  .ourServ p {
+     text-indent: 0
+    }
 
   #headshot {
     right: 1.5rem;
