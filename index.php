@@ -8,9 +8,9 @@ if (isset($_POST['submit'])) {
   $message = $_POST['comments'];
   $subscribe = $_POST['subscribe'];
 
-$mailTo = "chaunceyberkowits@yahoo.com"; //cant sent to gmail
+$mailTo = "sellwithmoms@yahoo.com"; //cant sent to gmail
 $headers = "From: $mailFrom";
-$txt = "You have received an email from $name.\n\n $message\n\n Phone number: $phone";
+$txt = "You have received an email from $name.\n\n $message\n\n Phone number: $phone \n\n Subscribe: $subscribe";
 
   mail($mailTo, $subject, $txt, $headers, $subscribe );
   header("Location: index.php?mailsend");
