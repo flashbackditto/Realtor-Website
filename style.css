@@ -8,7 +8,7 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: rgba(37, 37, 34, 1);
-    color: rgba(255,255,255, 0.9)
+    color: rgba(255,255,255, 0.9);
   }
 
 #logo {
@@ -181,6 +181,29 @@ p {
 .review img {
    max-width: 100%;
    height: auto;
+}
+
+.listing {
+    background-color: rgba(255, 0, 0, 0.7);
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    margin: 1.5rem auto 5rem auto;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
+}
+
+.listing h3, .listing p {
+  margin: 1rem 3rem;
+}
+
+.properties .listing img {
+  max-width: 600px;
+  height: auto;
+  margin: 0rem auto;
+  border: 2px solid black;
 }
 
 hr {
@@ -445,6 +468,19 @@ button[type="submit"]:hover {
     font-size: 11px
   }
 
+  .listing {
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .listing h3, .listing p {
+   margin: 1rem 1.5rem;
+}
+
+  .properties .listing img {
+    max-width: 100%;
+    margin: 0rem 1rem;
+  }
   #contactSocial {
     margin: 0 auto;
     padding: 1rem;
