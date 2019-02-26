@@ -196,7 +196,7 @@ p {
 }
 
 .listing h3, .listing p {
-  margin: 1rem 3rem;
+  margin: 1rem 6rem;
 }
 
 .properties .listing img {
@@ -320,11 +320,11 @@ button[type="submit"] {
    font-size: 15px;
   }
 
-button[type="submit"]:hover {
+#contact-submit:hover {
    background-color: rgba(250, 0, 0, 0.9);
-   -webkit-transition: background 0.3s ease-in-out;
-   -moz-transition: background 0.3s ease-in-out;
-   transition: background-color 0.3s ease-in-out;
+   -webkit-transition:0.3s ease-in-out;
+   -moz-transition: 0.3s ease-in-out;
+   transition:0.3s ease-in-out;
   }
 
 
