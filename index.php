@@ -13,7 +13,7 @@ $headers = "From: $mailFrom";
 $txt = "You have received an email from $name.\n\n $message\n\n Phone number: $phone \n\n Subscribe: $subscribe";
 
   mail($mailTo, $subject, $txt, $headers, $subscribe );
-  header("Location: index.php?mailsend");
+  header("Location: index.html");
   echo "Thank You!";
 };
 ?>
